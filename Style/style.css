@@ -1,0 +1,120 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+    background-size: cover;
+    padding-top: 30px; 
+}
+
+/* Cabeçalho e Menu */
+header {
+    position: relative;
+    background-color: #5c0f7e;
+    color: white;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #130872;
+    z-index: 1000;
+}
+
+
+nav .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu li {
+    margin: 0 20px;
+}
+
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.menu li a:hover {
+    color: #597ab6;
+}
+
+
+/* Seção Hero */
+.hero {
+    background-color: #000a8f;
+    padding: 50px 0 50px; /* Maior padding superior para o efeito de menu fixo */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+
+.hero p {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Abaixo do item principal */
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-content li {
+    margin: 0;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+    color: #1e90ff;
+}
+
+/* Mostrar dropdown ao passar o mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

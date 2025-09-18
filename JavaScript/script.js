@@ -1,39 +1,49 @@
 //SEÇÕES
-// Função para mostrar/ocultar as seções
-document.addEventListener("DOMContentLoaded", function() {
-    // Oculta todas as seções inicialmente
+document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll('section');
-    sections.forEach(section => {
-        section.classList.add('ocultar');
-    });
+    const links = document.querySelectorAll('nav a[href^="#"]');
 
-    // Mostra a seção desejada por padrão
-    const sobreSection = document.getElementById('sobre');
-    sobreSection.classList.remove('ocultar');
-    sobreSection.classList.add('active');
+    //Função para mostrar as 'seções' com base no ID
+    function showSection(id) {
+        sections.forEach(section => {
+            if (section.id === id) {
+                section.classList.remove('ocultar');
+                section.classList.add('active');
+            } else {
+                section.classList.add('ocultar');
+                section.classList.remove('active');
+            }
+        });
+    }
 
-    // Adiciona evento de clique para mostrar o conteúdo oculto
-    const linkParaOculto = document.createElement('a');
-    linkParaOculto.addEventListener('click', function(event) {
-        event.preventDefault(); // Previne o comportamento padrão do link
-        const conteudoOculto = document.getElementById('montar');
-        conteudoOculto.classList.remove('ocultar');
-        conteudoOculto.classList.add('active');
+    //Mostra a seção "sobre" por padrão
+    showSection('sobre');
+
+    //Adiciona evento de clique para os links do menu de navegação
+    links.forEach(link => {
+        link.addEventListener('click', function (event) {
+            const targetId = this.getAttribute('href').replace('#', '');
+            if (document.getElementById(targetId)) {
+                event.preventDefault();
+                showSection(targetId);
+            }
+        });
     });
 });
 
-// Seleciona todos os dropdowns
+//DROPDOWN
+//Seleciona todos os dropdowns
 const dropdowns = document.querySelectorAll('.dropdown');
 
-// Adiciona um evento de clique para cada dropdown
+//Adiciona um evento de clique para cada dropdown
 dropdowns.forEach(dropdown => {
     dropdown.addEventListener('click', () => {
-        // Alterna a classe "show" no dropdown clicado
+        //Alterna a classe "show" no dropdown clicado
         dropdown.classList.toggle('show');
     });
 });
 
-// Fecha o menu dropdown ao clicar fora
+//Fecha o menu dropdown ao clicar fora
 window.addEventListener('click', (e) => {
     dropdowns.forEach(dropdown => {
         if (!dropdown.contains(e.target)) {

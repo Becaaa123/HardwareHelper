@@ -18,7 +18,7 @@ body {
 /* Cabeçalho e Menu */
 header {
     position: relative;
-    background-color: #0f3b7e;
+    background-color: #062452;
     color: white;
 }
 
@@ -27,7 +27,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #130872;
+    background-color: #0d0553;
     z-index: 1000;
 }
 
@@ -59,7 +59,7 @@ nav .container {
 }
 
 .hero {
-    background-color: #000a8f;
+    background-color: #00055f;
     padding: 50px 0 50px;
     text-align: center;
     display: flex;
@@ -114,4 +114,21 @@ nav .container {
 section {
     margin: 0;
     padding: 20px 0;
+}
+
+#diogo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.active {
+    display:  block;
+}
+
+.ocultar {
+    display: none;
 }

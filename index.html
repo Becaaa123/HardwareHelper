@@ -19,13 +19,18 @@
     <header>
         <nav>
             <div class="container">
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <ul class="menu">
                     <!-- MENU DE NAVEGAÇÃO -->
                     <!-- SOBRE -->
-                    <li><a href="#sobre">Sobre o Diogo</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                     <!-- COMO MONTAR -->
                     <li class="dropdown">
-                        <a href="#montar">Como montar</a>
+                        <a>Como montar</a>
                         <ul class="dropdown-content">
                             <li><a href="#ferramentas">Ferramentas necessárias</a></li>
                             <li><a href="#passo">Passo a passo</a></li>
@@ -34,7 +39,7 @@
                     </li>
                     <!-- PROCESSADORES -->
                     <li class="dropdown">
-                        <a href="#processadores">Processadores</a>
+                        <a>Processadores</a>
                         <ul class="dropdown-content">
                             <li><a href="oqe">Qual sua função</a></li>
                             <li><a href="tipos">Tipos de processadores</a></li>
@@ -44,7 +49,7 @@
                     </li>
                     <!-- LOJAS -->
                     <li class="dropdown">
-                        <a href="#lojas" class="dropbtn">Lojas</a>
+                        <a>Lojas</a>
                         <ul class="dropdown-content">
                             <li><a href="#kabum">Kabum</a></li>
                             <li><a href="#pichau">Pichau</a></li>
@@ -53,7 +58,7 @@
                     </li>
                     <!-- REFRIGERAÇÃO -->
                     <li class="dropdown">
-                        <a href="#frio">Refrigeração</a>
+                        <a>Refrigeração</a>
                         <ul class="dropdown-content">
                             <li><a href="diferencas">Qual a diferença entre eles</a></li>
                             <li><a href="objtivo">Por que usa-lós</a></li>
@@ -64,7 +69,7 @@
                     </li>
                     <!-- PLACAS -->
                     <li class="dropdown">
-                        <a href="#placas" class="dropbtn">Placas</a>
+                        <a>Placas</a>
                         <ul class="dropdown-content">
                             <li><a href="#pv"> placas de video </a></li>
                             <li><a href="#pm">Placas mãe</a></li>
@@ -72,8 +77,10 @@
                     </li>
                     <!-- MONITORES -->
                     <li class="dropdown">
-                        <a href="#monitores" class="dropbtn">Monitores</a>
+                        <a>Monitores</a>
                         <ul class="dropdown-content">
+                            <li><a href="">Qual sua função</a></li>
+                            <li><a href="">Quais os tipos</a></li>
                             <li><a href="#aoc">AOC</a></li>
                             <li><a href="#lg">LG</a></li>
                             <li><a href="#dell">DELL</a></li>
@@ -82,17 +89,16 @@
                     </li>
                     <!-- QUAIS PEÇAS COMPRAR -->
                     <li class="dropdown">
-                        <a href="#comprar" class="dropbtn">Quais Peças Comprar?</a>
+                        <a>Quais Peças Comprar para</a>
                         <ul class="dropdown-content">
-                            <li><a href="#jogos">Jogos</a></li>
-                            <li><a href="#trabalho">Trabalho</a></li>
-                            <li><a href="#estudo">Estudo</a></li>
-                            <li><a href="#dia">Dia a Dia</a></li>
+                            <li><a href="#jogos">Jogar</a></li>
+                            <li><a href="#trabalho">Trabalhar</a></li>
+                            <li><a href="#estudo">Estudar</a></li>
                         </ul>
                     </li>
                     <!-- MEMÓRIAS -->
                     <li class="dropdown">
-                        <a href="#memorias"> Memorias </a>
+                        <a> Memorias </a>
                         <ul class="dropdown-content">
                             <li><a href="#ram">RAM</a></li>
                             <li><a href="#ssd">SSD</a></li>
@@ -101,7 +107,7 @@
                     </li>
                     <!-- PERIFÉRICOS -->
                     <li class="dropdown">
-                        <a href="#perifericos" class="dropbtn">Periféricos</a>
+                        <a>Periféricos</a>
                         <ul class="dropdown-content">
                             <li><a href="#teclado">Teclados</a></li>
                             <li><a href="#mouse">Mouses</a></li>
@@ -112,7 +118,7 @@
                     </li>
                     <!-- FONTES -->
                     <li class="dropdown">
-                        <a href="#fontes" class="dropbtn">Fontes</a>
+                        <a>Fontes</a>
                         <ul class="dropdown-content">
                             <li><a href="#pqs">Para que serve?</a></li>
                             <li><a href="#qot">Quais os tipos</a></li>
@@ -121,7 +127,7 @@
                     </li>
                     <!-- SOFTWARES -->
                     <li class="dropdown">
-                        <a href="#softwares" class="dropbtn">Softwares</a>
+                        <a>Softwares</a>
                         <ul class="dropdown-content">
                             <li><a href="#sistema">Sistema Operacional</a></li>
                             <li><a href="#antivirus">Antivírus</a></li>
@@ -147,14 +153,37 @@
     <!-- SOBRE O SITE E O CHATBOT -->
     <section class="active" id="sobre">
 
+        <h1> SOBRE O NOSSO CHATBOT: DIOGO </h1>
+
         <img id="diogo" src="./img/Diogo.jpg" alt="Diogo, o assistente virtual do Hardware Helper" />
         <h3> Diogo, o assistente virtual do Hardware Helper </h3>
 
-        <h1>DESCRIÇÃO DO SITE</h1>
+        <p>
+            O Diogo é um chatbot avançado treinado para ajudar você a montar o seu
+            PC ideal. Ele utiliza IA - Inteligência arificial para fornecer respostas
+            rápidas e precisas para sanar às suas dúvidas sobre hardware, componentes e
+            montagem de computadores.
+        </p>
 
         <p>
-            Na HardwareHelper, ajudamos qualquer pessoa a montar, escolher ou comprar
-            o seu PC ideal, de forma simples e sem complicação. Nosso assistente
+            Com o Diogo, você pode:
+        <ul>
+            <li>Receber recomendações personalizadas de peças com base nas suas necessidades e orçamento.</li>
+            <li>Obter instruções passo a passo para montar seu PC.</li>
+            <li>Esclarecer dúvidas técnicas sobre compatibilidade, desempenho e etc...</li>
+        </ul>
+        </p>
+        <p>
+            O Diogo está disponível 24/7 para ajudar você a cada etapa do processo de escolha e
+            montagem do seu PC. Basta digitar sua pergunta ou dúvida, e ele estará
+            pronto para ajudar!
+        </p>
+
+        <h1> DESCRIÇÃO DO SITE </h1>
+
+        <p>
+            Na Hardware Helper, ajudamos qualquer pessoa a montar, escolher ou comprar
+            o seu PC ideal, de forma simples e sem complicações. Nosso assistente
             virtual DIOGO, está sempre pronto pra te orientar passo a passo - desde a
             escolha das peças até a configuração final. Seja para estudar, trabalhar
             ou jogar, queremos que cada setup seja perfeito pra você.
@@ -162,8 +191,9 @@
 
         <p>
             Explore nosso site e descubra dicas, tutoriais e recomendações
-            personalizadas. Com a Hardware Helper, montar o PC dos seus sonhos nunca
-            foi tão fácil!
+            personalizadas. Estamos aqui para ajudar você a transformar suas ideias em realidade.
+            Com a Hardware Helper, montar o PC dos seus sonhos nunca
+            foi tão fácil! Vamos começar essa jornada juntos!
         </p>
     </section>
     <!-- COMO MONTAR -> FERRAMENTAS NECESSÁRIAS -->

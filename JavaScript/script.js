@@ -51,3 +51,13 @@ window.addEventListener('click', (e) => {
         }
     });
 });
+
+//RESPONSIVIDADE
+//Menu hambúrguer para responsividade em celulares e telas pequenas
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.querySelector('.menu');
+    menuToggle.addEventListener('click', function () {
+        menu.classList.toggle('active');
+    });
+});

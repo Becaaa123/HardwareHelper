@@ -201,12 +201,14 @@ li {
 }
 
 #passo h1,
+#video h1,
 #ferramentas h1 {
     text-align: center;
     margin-bottom: 20px;
 }
 
 #passo h2,
+#video h2,
 #ferramentas h2 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -217,6 +219,13 @@ li {
     margin-bottom: 10px;
 }
 
+#video h3 {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #062452;
+}
+
 .active {
     display: block;
 }
@@ -224,6 +233,7 @@ li {
 .ocultar {
     display: none;
 }
+
 /* RESPONSIVIDADE */
 /* Menu hambúrguer para responsividade em celulares e telas pequenas */
 .menu-toggle {

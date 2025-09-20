@@ -120,7 +120,7 @@ nav .container {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+/* ESTILOS DAS SEÇÕES */
 section {
     margin: 0;
     padding: 20px 0;
@@ -138,6 +138,92 @@ li {
     text-align: left;
 }
 
+#sobre {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#ferramentas, 
+#passo,
+#oqe,
+#tipos,
+#evolucao,
+#intel,
+#amd {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#sobre li,
+#ferramentas li,
+#tipos li,
+#intel li,
+#amd li {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+#sobre p,
+#oqe p,
+#ferramentas p,
+#passo p,
+#tipos p,
+#evolucao p,
+#intel p,
+#amd p {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+#passo h1,
+#video h1,
+#oqe h1,
+#ferramentas h1,
+#sobre h1,
+#tipos h1,
+#evolucao h1,
+#intel h1,
+#amd h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#passo h2,
+#video h2,
+#oqe h2,
+#ferramentas h2,
+#tipos h2,
+#evolucao h2,
+#intel h2,
+#amd h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #062452;
+}
+
+#sobre h3,
+#video h3,
+#oqe h3,
+#tipos h3,
+#evolucao h3,
+#intel h3,
+#amd h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #001e5e;
+}
+/* STYLE DAS IMAGENS */
+/* img do diogão */
 #diogo {
     width: 350px;
     height: 350px;
@@ -146,84 +232,17 @@ li {
     margin-bottom: 20px;
     margin-top: 30px;
 }
-
-#sobre {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-#sobre p {
-    margin-bottom: 10px;
-    text-align: left;
-    font-size: 1.3rem;
-}
-
-#sobre h1,
-#sobre h2 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: black;
-}
-
-#sobre h3 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #062452;
-}
-
-#sobre li {
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-#ferramentas {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-#ferramentas p {
-    margin-bottom: 10px;
-}
-
-#passo {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-#passo h1,
-#video h1,
-#ferramentas h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#passo h2,
-#video h2,
-#ferramentas h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #062452;
-}
-
-#passo p {
-    margin-bottom: 10px;
-}
-
-#video h3 {
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #062452;
+/* img do processador, tipos de processadores, evolução processadores, intel, amd */
+#oqe img,
+#tipos img,
+#evolucao img,
+#intel img,
+#amd img{
+    max-width: 95%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .active {
@@ -233,7 +252,6 @@ li {
 .ocultar {
     display: none;
 }
-
 /* RESPONSIVIDADE */
 /* Menu hambúrguer para responsividade em celulares e telas pequenas */
 .menu-toggle {

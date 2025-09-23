@@ -151,7 +151,10 @@ li {
 #tipos,
 #evolucao,
 #intel,
-#amd {
+#amd,
+#kabum,
+#pichau,
+#amazon {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -176,7 +179,10 @@ li {
 #tipos p,
 #evolucao p,
 #intel p,
-#amd p {
+#amd p,
+#kabum p,
+#pichau p,
+#amazon p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -190,7 +196,10 @@ li {
 #tipos h1,
 #evolucao h1,
 #intel h1,
-#amd h1 {
+#amd h1,
+#kabum h1,
+#pichau h1,
+#amazon h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -204,7 +213,10 @@ li {
 #tipos h2,
 #evolucao h2,
 #intel h2,
-#amd h2 {
+#amd h2,
+#kabum h2,
+#pichau h2,
+#amazon h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -216,11 +228,22 @@ li {
 #tipos h3,
 #evolucao h3,
 #intel h3,
-#amd h3 {
+#amd h3,
+#kabum h3,
+#pichau h3,
+#amazon h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
     color: #001e5e;
+}
+
+#kabum a,
+#pichau a,
+#amazon a {
+    color: #062452;
+    text-decoration: none;
+    font-weight: bold;
 }
 /* STYLE DAS IMAGENS */
 /* img do diogão */
@@ -237,7 +260,10 @@ li {
 #tipos img,
 #evolucao img,
 #intel img,
-#amd img{
+#amd img,
+#kabum img,
+#pichau img,
+#amazon img {
     max-width: 95%;
     height: auto;
     margin: 20px 0;

@@ -154,7 +154,12 @@ li {
 #amd,
 #kabum,
 #pichau,
-#amazon {
+#amazon,
+#diferencas,
+#objetivo,
+#ar,
+#liquida,
+#fans {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -165,7 +170,12 @@ li {
 #ferramentas li,
 #tipos li,
 #intel li,
-#amd li {
+#amd li,
+#diferencas li,
+#objetivo li,
+#ar li,
+#liquida li,
+#fans li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -182,7 +192,12 @@ li {
 #amd p,
 #kabum p,
 #pichau p,
-#amazon p {
+#amazon p,
+#diferencas p,
+#objetivo p,
+#ar p,
+#liquida p,
+#fans p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -199,7 +214,12 @@ li {
 #amd h1,
 #kabum h1,
 #pichau h1,
-#amazon h1 {
+#amazon h1,
+#diferencas h1,
+#objetivo h1,
+#ar h1,
+#liquida h1,
+#fans h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -216,7 +236,12 @@ li {
 #amd h2,
 #kabum h2,
 #pichau h2,
-#amazon h2 {
+#amazon h2,
+#diferencas h2,
+#objetivo h2,
+#ar h2,
+#liquida h2,
+#fans h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;

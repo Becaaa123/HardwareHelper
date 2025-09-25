@@ -288,7 +288,11 @@ li {
 #amd img,
 #kabum img,
 #pichau img,
-#amazon img {
+#amazon img,
+#diferencas img,
+#ar img,
+#liquida img,
+#fans img {
     max-width: 95%;
     height: auto;
     margin: 20px 0;

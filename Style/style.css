@@ -161,7 +161,9 @@ li {
 #liquida,
 #fans,
 #pv,
-#pm {
+#pm,
+#qf,
+#qt {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -179,7 +181,8 @@ li {
 #liquida li,
 #fans li,
 #pv li,
-#pm li {
+#pm li,
+#qt li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -203,7 +206,9 @@ li {
 #liquida p,
 #fans p,
 #pv p,
-#pm p {
+#pm p,
+#qf p,
+#qt p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -227,7 +232,9 @@ li {
 #liquida h1,
 #fans h1,
 #pv h1,
-#pm h1 {
+#pm h1,
+#qf h1,
+#qt h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -251,7 +258,9 @@ li {
 #liquida h2,
 #fans h2,
 #pv h2,
-#pm h2 {
+#pm h2,
+#qf h2,
+#qt h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -272,7 +281,9 @@ li {
 #liquida h3,
 #fans h3,
 #pv h3,
-#pm h3 {
+#pm h3,
+#qf h3,
+#qt h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -310,7 +321,9 @@ li {
 #liquida img,
 #fans img,
 #pv img,
-#pm img {
+#pm img,
+#qf img,
+#qt img {
     max-width: 95%;
     height: auto;
     margin: 20px 0;

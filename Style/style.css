@@ -159,7 +159,9 @@ li {
 #objetivo,
 #ar,
 #liquida,
-#fans {
+#fans,
+#pv,
+#pm {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -175,7 +177,9 @@ li {
 #objetivo li,
 #ar li,
 #liquida li,
-#fans li {
+#fans li,
+#pv li,
+#pm li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -197,7 +201,9 @@ li {
 #objetivo p,
 #ar p,
 #liquida p,
-#fans p {
+#fans p,
+#pv p,
+#pm p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -219,7 +225,9 @@ li {
 #objetivo h1,
 #ar h1,
 #liquida h1,
-#fans h1 {
+#fans h1,
+#pv h1,
+#pm h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -241,7 +249,9 @@ li {
 #objetivo h2,
 #ar h2,
 #liquida h2,
-#fans h2 {
+#fans h2,
+#pv h2,
+#pm h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -256,7 +266,13 @@ li {
 #amd h3,
 #kabum h3,
 #pichau h3,
-#amazon h3 {
+#amazon h3,
+#diferencas h3,
+#ar h3,
+#liquida h3,
+#fans h3,
+#pv h3,
+#pm h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -292,7 +308,9 @@ li {
 #diferencas img,
 #ar img,
 #liquida img,
-#fans img {
+#fans img,
+#pv img,
+#pm img {
     max-width: 95%;
     height: auto;
     margin: 20px 0;

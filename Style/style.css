@@ -154,7 +154,19 @@ li {
 #amd,
 #kabum,
 #pichau,
-#amazon {
+#amazon,
+#diferencas,
+#objetivo,
+#ar,
+#liquida,
+#fans,
+#pv,
+#pm,
+#qf,
+#qt,
+#jogos,
+#trabalho,
+#estudo {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -165,7 +177,18 @@ li {
 #ferramentas li,
 #tipos li,
 #intel li,
-#amd li {
+#amd li,
+#diferencas li,
+#objetivo li,
+#ar li,
+#liquida li,
+#fans li,
+#pv li,
+#pm li,
+#qt li,
+#jogos li,
+#trabalho li,
+#estudo li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -182,7 +205,19 @@ li {
 #amd p,
 #kabum p,
 #pichau p,
-#amazon p {
+#amazon p,
+#diferencas p,
+#objetivo p,
+#ar p,
+#liquida p,
+#fans p,
+#pv p,
+#pm p,
+#qf p,
+#qt p,
+#jogos p,
+#trabalho p,
+#estudo p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -199,7 +234,19 @@ li {
 #amd h1,
 #kabum h1,
 #pichau h1,
-#amazon h1 {
+#amazon h1,
+#diferencas h1,
+#objetivo h1,
+#ar h1,
+#liquida h1,
+#fans h1,
+#pv h1,
+#pm h1,
+#qf h1,
+#qt h1,
+#jogos h1,
+#trabalho h1,
+#estudo h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -216,7 +263,19 @@ li {
 #amd h2,
 #kabum h2,
 #pichau h2,
-#amazon h2 {
+#amazon h2,
+#diferencas h2,
+#objetivo h2,
+#ar h2,
+#liquida h2,
+#fans h2,
+#pv h2,
+#pm h2,
+#qf h2,
+#qt h2,
+#jogos h2,
+#trabalho h2,
+#estudo h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -231,7 +290,18 @@ li {
 #amd h3,
 #kabum h3,
 #pichau h3,
-#amazon h3 {
+#amazon h3,
+#diferencas h3,
+#ar h3,
+#liquida h3,
+#fans h3,
+#pv h3,
+#pm h3,
+#qf h3,
+#qt h3,
+#jogos h3,
+#trabalho h3,
+#estudo h3{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -263,7 +333,26 @@ li {
 #amd img,
 #kabum img,
 #pichau img,
-#amazon img {
+#amazon img,
+#diferencas img,
+#ar img,
+#liquida img,
+#fans img,
+#pv img,
+#pm img,
+#qf img,
+#qt img,
+#jogos img,
+#estudo img {
+    max-width: 95%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#trabalho img{
+    width: 95%;
     max-width: 95%;
     height: auto;
     margin: 20px 0;

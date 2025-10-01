@@ -169,7 +169,10 @@ li {
 #estudo,
 #ram,
 #ssd,
-#hd {
+#hd,
+#teclado,
+#mouse,
+#gabinetes {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -194,7 +197,10 @@ li {
 #estudo li,
 #ram li,
 #ssd li,
-#hd li {
+#hd li,
+#teclado li,
+#mouse li,
+#gabinetes li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -226,7 +232,10 @@ li {
 #estudo p,
 #ram p,
 #ssd p,
-#hd p {
+#hd p,
+#teclado p,
+#mouse p,
+#gabinetes p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -258,7 +267,10 @@ li {
 #estudo h1,
 #ram h1,
 #ssd h1,
-#hd h1 {
+#hd h1,
+#teclado h1,
+#mouse h1,
+#gabinetes h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -290,7 +302,10 @@ li {
 #estudo h2,
 #ram h2,
 #ssd h2,
-#hd h2 {
+#hd h2,
+#teclado h2,
+#mouse h2,
+#gabinetes h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -319,7 +334,10 @@ li {
 #estudo h3,
 #ram h3,
 #ssd h3,
-#hd h3 {
+#hd h3,
+#teclado h3,
+#mouse h3,
+#gabinetes h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -364,7 +382,10 @@ li {
 #estudo img,
 #ram img,
 #ssd img,
-#hd img {
+#hd img,
+#teclado img,
+#mouse img,
+#gabinetes img {
     max-width: 95%;
     height: auto;
     margin: 20px 0;

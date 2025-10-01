@@ -166,7 +166,10 @@ li {
 #qt,
 #jogos,
 #trabalho,
-#estudo {
+#estudo,
+#ram,
+#ssd,
+#hd {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -188,7 +191,10 @@ li {
 #qt li,
 #jogos li,
 #trabalho li,
-#estudo li {
+#estudo li,
+#ram li,
+#ssd li,
+#hd li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -217,7 +223,10 @@ li {
 #qt p,
 #jogos p,
 #trabalho p,
-#estudo p {
+#estudo p,
+#ram p,
+#ssd p,
+#hd p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -246,7 +255,10 @@ li {
 #qt h1,
 #jogos h1,
 #trabalho h1,
-#estudo h1 {
+#estudo h1,
+#ram h1,
+#ssd h1,
+#hd h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -275,7 +287,10 @@ li {
 #qt h2,
 #jogos h2,
 #trabalho h2,
-#estudo h2 {
+#estudo h2,
+#ram h2,
+#ssd h2,
+#hd h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -301,7 +316,10 @@ li {
 #qt h3,
 #jogos h3,
 #trabalho h3,
-#estudo h3{
+#estudo h3,
+#ram h3,
+#ssd h3,
+#hd h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -343,7 +361,10 @@ li {
 #qf img,
 #qt img,
 #jogos img,
-#estudo img {
+#estudo img,
+#ram img,
+#ssd img,
+#hd img {
     max-width: 95%;
     height: auto;
     margin: 20px 0;

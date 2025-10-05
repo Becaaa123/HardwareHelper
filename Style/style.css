@@ -174,7 +174,9 @@ li {
 #mouse,
 #gabinetes,
 #pqs,
-#qot {
+#qot,
+#sistema,
+#antivirus {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -204,7 +206,9 @@ li {
 #mouse li,
 #gabinetes li,
 #pqs li,
-#qot li {
+#qot li,
+#sistema li,
+#antivirus li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -241,7 +245,9 @@ li {
 #mouse p,
 #gabinetes p,
 #pqs p,
-#qot p {
+#qot p,
+#sistema p,
+#antivirus p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -278,7 +284,9 @@ li {
 #mouse h1,
 #gabinetes h1,
 #pqs h1,
-#qot h1 {
+#qot h1,
+#sistema h1,
+#antivirus h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -315,7 +323,9 @@ li {
 #mouse h2,
 #gabinetes h2,
 #pqs h2,
-#qot h2 {
+#qot h2,
+#sistema h2,
+#antivirus h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -324,6 +334,7 @@ li {
 #sobre h3,
 #video h3,
 #oqe h3,
+#ferramentas h3,
 #tipos h3,
 #evolucao h3,
 #intel h3,
@@ -349,7 +360,9 @@ li {
 #mouse h3,
 #gabinetes h3,
 #pqs h3,
-#qot h3 {
+#qot h3,
+#sistema h3,
+#antivirus h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -375,6 +388,7 @@ li {
 }
 /* img do processador, tipos de processadores, evolução processadores, intel, amd */
 #oqe img,
+#ferramentas img,
 #tipos img,
 #evolucao img,
 #intel img,
@@ -391,6 +405,7 @@ li {
 #qf img,
 #qt img,
 #jogos img,
+#trabalho img,
 #estudo img,
 #ram img,
 #ssd img,
@@ -399,21 +414,53 @@ li {
 #mouse img,
 #gabinetes img,
 #pqs img,
-#qot img {
-    max-width: 95%;
+#qot img,
+#sistema img,
+#antivirus img {
+    display: block;
+    width: 100%;
+    max-width: 480px;
     height: auto;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 32px auto 32px auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(6, 36, 82, 0.22), 0 1.5px 4px rgba(0,0,0,0.04);
+    object-fit: cover;
+    background: linear-gradient(135deg, #f5f7fa 60%, #e3eafc 100%);
+    transition: box-shadow 0.3s, transform 0.3s;
 }
 
-#trabalho img{
-    width: 95%;
-    max-width: 95%;
-    height: auto;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+#oqe img:hover,
+#ferramentas img:hover,
+#tipos img:hover,
+#evolucao img:hover,
+#intel img:hover,
+#amd img:hover,
+#kabum img:hover,
+#pichau img:hover,
+#amazon img:hover,
+#diferencas img:hover,
+#ar img:hover,
+#liquida img:hover,
+#fans img:hover,
+#pv img:hover,
+#pm img:hover,
+#qf img:hover,
+#qt img:hover,
+#jogos img:hover,
+#trabalho img:hover,
+#estudo img:hover,
+#ram img:hover,
+#ssd img:hover,
+#hd img:hover,
+#teclado img:hover,
+#mouse img:hover,
+#gabinetes img:hover,
+#pqs img:hover,
+#qot img:hover,
+#sistema img:hover,
+#antivirus img:hover {
+    box-shadow: 0 12px 32px rgba(6, 36, 82, 0.28), 0 2px 8px rgba(0,0,0,0.07);
+    transform: scale(1.025);
 }
 
 .active {

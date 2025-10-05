@@ -172,7 +172,9 @@ li {
 #hd,
 #teclado,
 #mouse,
-#gabinetes {
+#gabinetes,
+#pqs,
+#qot {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
@@ -200,7 +202,9 @@ li {
 #hd li,
 #teclado li,
 #mouse li,
-#gabinetes li {
+#gabinetes li,
+#pqs li,
+#qot li {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -235,7 +239,9 @@ li {
 #hd p,
 #teclado p,
 #mouse p,
-#gabinetes p {
+#gabinetes p,
+#pqs p,
+#qot p {
     text-align: left;
     margin-bottom: 10px;
     font-size: 1.3rem;
@@ -270,7 +276,9 @@ li {
 #hd h1,
 #teclado h1,
 #mouse h1,
-#gabinetes h1 {
+#gabinetes h1,
+#pqs h1,
+#qot h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-bottom: 10px;
@@ -305,7 +313,9 @@ li {
 #hd h2,
 #teclado h2,
 #mouse h2,
-#gabinetes h2 {
+#gabinetes h2,
+#pqs h2,
+#qot h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #062452;
@@ -337,7 +347,9 @@ li {
 #hd h3,
 #teclado h3,
 #mouse h3,
-#gabinetes h3 {
+#gabinetes h3,
+#pqs h3,
+#qot h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -385,7 +397,9 @@ li {
 #hd img,
 #teclado img,
 #mouse img,
-#gabinetes img {
+#gabinetes img,
+#pqs img,
+#qot img {
     max-width: 95%;
     height: auto;
     margin: 20px 0;
